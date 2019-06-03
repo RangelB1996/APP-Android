@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bryan.estudihambre">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".inicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".registro" />
+        <activity android:name=".login" />
+        <activity android:name=".principal" />
+        <activity android:name=".busqueda" />
+        <activity android:name=".programacion" />
+        <activity android:name=".biblioteca" />
+        <activity android:name=".sql" />
+        <activity android:name=".simulacion" />
+        <activity android:name=".numericos" />
+
+        <receiver android:name=".NewAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/new_app_widget_info" />
+        </receiver>
+
+        <activity android:name=".Tareas" />
+        <activity android:name=".Materias" />
+        <activity android:name=".DetalleTarea" />
+        <activity android:name=".sudoku" />
+        <activity android:name=".juego" />
+        <activity android:name=".tablero" />
+        <activity android:name=".pendientes" />
+        <activity android:name=".videos" />
+        <activity android:name=".calculadora" />
+        <activity android:name=".mate"></activity>
+    </application>
+
+</manifest>

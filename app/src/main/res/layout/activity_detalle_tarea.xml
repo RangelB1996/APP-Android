@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bryan.estudihambre.DetalleTarea">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:id="@+id/lbpedido"
+            android:text="No.Tarea: "
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="normal|bold"/>
+
+        <EditText
+            android:id="@+id/txtnumtarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbfecha"
+            android:text="Fecha de entrega: "/>
+
+        <EditText
+            android:id="@+id/txtfechatarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbcte"
+            android:text="Materia: "/>
+
+        <EditText
+            android:id="@+id/txtmateria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/lbdetalle"
+        android:text="Detalle de tarea"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de tarea "/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnertrabajo">
+        </Spinner>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalle tarea"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtdetalle_tarea"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonAgregar"
+            android:text="Agregar Tarea"
+            android:onClick="AgregarProductosalPedido"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonGuardar"
+            android:text="Guardar "
+            android:onClick="guardarPedido"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbdesc"
+            android:text="Descripcion           "
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbpre"
+            android:text="Detalle"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtdetalle"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:scrollbarAlwaysDrawVerticalTrack="?attr/isLightTheme" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/botonCancelar2"
+                    android:text="Cancelar"
+                    android:onClick="cancelar"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

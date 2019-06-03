@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bryan.estudihambre.calculadora">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="178dp"
+        android:layout_height="29dp"
+        android:fontFamily="casual"
+        android:text="Ingrese un digito"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="155dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Ingrese otro digito:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.044"
+        tools:text="Ingrese otro digito:" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
+        android:id="@+id/btn_todo"
+        android:layout_width="204dp"
+        android:layout_height="100dp"
+        android:onClick="operaciones"
+        android:text="CALCULAR"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="404dp">
+
+    </RadioGroup>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <CheckBox
+        android:id="@+id/ch_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUMA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843" />
+
+    <CheckBox
+        android:id="@+id/ch_res"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:text="RESTA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832" />
+
+    <CheckBox
+        android:id="@+id/ch_div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIVISION"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
+
+    <CheckBox
+        android:id="@+id/ch_mult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICACION"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
+</android.support.constraint.ConstraintLayout>

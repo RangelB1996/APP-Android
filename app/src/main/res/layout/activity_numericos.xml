@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.bryan.estudihambre.numericos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Metodos numericos, una materia donde se aprende que toda operacion
+numerica o medida en especifica cuenta con cierto porcentaje de error puesto que nada es perfecto."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Mathcad/Expociciones"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Contenido"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/burbuja"
+                android:layout_width="350dp"
+                android:layout_height="312dp"
+                android:background="@drawable/mn1" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="En la materia ser utilizo el software matematico llamado Mathcad
+con el cual utilizamos su sintaxis de programacion para generar algoritmos, asi como presentaciones
+sobre algunos temas."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Unidad 1"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/bidimensionales"
+                android:layout_width="300dp"
+                android:layout_height="282dp"
+                android:background="@drawable/mn2" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Unidad donde se realizaron programas sencillos como el metodo de truncamiento o redondeo.
+Con esto de daba a conocer que cada metodo es bueno en ciertas circunstancias."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Unidad 2"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/examen"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:background="@drawable/mn3" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Unidad de algoritmos un tanto mas estructurados,
+metodos un tanto mas tardados pero acertados, asi como metodos faciles pero con cierto margen de error."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Unidad 3"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/examen1"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:background="@drawable/mn4" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Fue aqui donde comenzaron a generarse algoritmos mucho mas grande
+con diversas operaciones implicitas, metodos como el de bairstow, division sintetica y division en polinomio."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo4"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Unidad 4"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/examen2"
+                android:layout_width="320dp"
+                android:layout_height="282dp"
+                android:background="@drawable/mn5" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="AL final se muestran programas con los algoritmos del metodo de gauss,
+gauss jordan,etc."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/titulo5"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Ejemplo"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+            <Button
+                android:id="@+id/examen3"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:background="@drawable/mn6" />
+
+            <Button
+                android:id="@+id/drive"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:background="@drawable/drive" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

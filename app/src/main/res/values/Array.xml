@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+        <item>Exposicion</item>
+        <item>Proyecto</item>
+        <item>Resumen</item>
+        <item>Investigacion</item>
+        <item>Comprar</item>
+        <item>Descargar</item>
+        <item>Lectura</item>
+        <item>Otro</item>
+
+
+    </string-array>
+</resources>

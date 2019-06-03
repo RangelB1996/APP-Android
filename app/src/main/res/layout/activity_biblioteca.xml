@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.bryan.estudihambre.biblioteca">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tx"
+                android:layout_width="match_parent"
+                android:layout_height="193dp"
+                android:fontFamily="casual"
+                android:text="Aqui encontraras libros los cuales hemos estado usando en el transcurso de la carrera
+asi como documentos de algunos estudihambres 100% confiables"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Libritos :)"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="JAVA SE 8"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/javase"
+                android:layout_width="300dp"
+                android:layout_height="312dp"
+                android:background="@drawable/javase8" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="148dp"
+                android:fontFamily="casual"
+                android:text="Libro en el cual encontraras todo aquello que desconoces de java asi como reafirmaras cosas
+que ya has aprendido aplicado de distintas formas, libro super completo(Esta en ingles)."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/mega"
+                android:layout_width="296dp"
+                android:layout_height="70dp"
+                android:background="@drawable/mega" />
+
+
+            <TextView
+                android:id="@+id/titulo1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Automatas Finitos"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/au_fin"
+                android:layout_width="300dp"
+                android:layout_height="318dp"
+                android:background="@drawable/elvis" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="141dp"
+                android:fontFamily="casual"
+                android:text="PDF con contenido acerca de los automatas finitos, informacion de suma importancia para
+enamorarse de esta genial materia Lenguajes y Automatas"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/mega2"
+                android:layout_width="296dp"
+                android:layout_height="64dp"
+                android:background="@drawable/mega" />
+
+            <TextView
+                android:id="@+id/titulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Principios de compiladores"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/compi"
+                android:layout_width="300dp"
+                android:layout_height="282dp"
+                android:background="@drawable/compiladores" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="La biblia de Lenguajes y Automatas , el hermoso libro del dragoncito :3"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/mega3"
+                android:layout_width="296dp"
+                android:layout_height="64dp"
+                android:background="@drawable/mega" />
+            <TextView
+                android:id="@+id/titulo3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Ensamblador"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/ensamblador"
+                android:layout_width="300dp"
+                android:layout_height="282dp"
+                android:background="@drawable/ensamblador" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:fontFamily="casual"
+                android:text="PDF el cual contiene operaciones e instrucciones basicas de este lenguaje"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/mega4"
+                android:layout_width="296dp"
+                android:layout_height="64dp"
+                android:background="@drawable/mega" />
+            <TextView
+                android:id="@+id/titulo4"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Expresiones Regulares"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/exp"
+                android:layout_width="300dp"
+                android:layout_height="282dp"
+                android:background="@drawable/elvis1" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:fontFamily="casual"
+                android:text="PDF con contenido acerca de expresiones regulares las cuales te facilitaran
+muchisimo trabajo pues son muy eficientes"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/mega5"
+                android:layout_width="296dp"
+                android:layout_height="64dp"
+                android:background="@drawable/mega" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

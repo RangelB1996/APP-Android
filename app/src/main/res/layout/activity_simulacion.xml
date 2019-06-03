@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.bryan.estudihambre.simulacion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Simulacion, consiste en la utilización de ciertas técnicas matemáticas,
+empleadas en computadores, las cuales permiten imitar el funcionamiento de practicamente
+cualquier tipo de operación o proceso del mundo real"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Practicas en Excel"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Archivos que contiene"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/burbuja"
+                android:layout_width="350dp"
+                android:layout_height="312dp"
+                android:background="@drawable/sim1" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Aqui podremos obtener ejercicicios estadisticos aplicados en excel
+de las 5 unidades de la materia de simulacion, asi como un libro muy completo con el cual podras
+comprender el porque y para que sirve la simulacion.
+Ademas de unos pequeños archivos sobre como manejar excel"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Unidad 1"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/bidimensionales"
+                android:layout_width="300dp"
+                android:layout_height="282dp"
+                android:background="@drawable/sim2" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="En la unidad 1 encontraremos mas que nada definiciones y ejercicos
+muy basicos aplicados a la simulacion, tambien el manejo de tiempos en actividades desarrolladas en visio."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Unidad 2"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/examen"
+                android:layout_width="300dp"
+                android:layout_height="282dp"
+                android:background="@drawable/sim3" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="En la segunda unidad se usaron los diversos metodos generadores de
+numeros aleatorios para poder comprobar la fatilidad de cada uno de los metodos."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Unidad 3"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/examen1"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:background="@drawable/sim4" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Es hasta esta unidad en donde empezamos a utilizar numeros aleatorios
+para resolver problematicas o incognitas muy comunes, tales como el timpo estimado de espera de una persona
+inclusive de el movimiento aleatorio de un borracho."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo4"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Unidad 4"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/examen2"
+                android:layout_width="300dp"
+                android:layout_height="282dp"
+                android:background="@drawable/sim5" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Ultima unidad, aqui se resuelven temas mucho mas elaborados
+como calcular la probabilidad en un juego de poker, asi como la probabilidad de venta de una bicicleta en especifico
+etc."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/titulo5"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Ejemplo"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+            <Button
+                android:id="@+id/examen3"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:background="@drawable/sim6" />
+
+            <Button
+                android:id="@+id/drive"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:background="@drawable/drive" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

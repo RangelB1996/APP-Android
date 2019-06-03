@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bryan.estudihambre.registro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:padding="20dp"
+                android:text="Registro de Estudihambres"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edit_text_control"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Numero de control:"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/edit_text_nombre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre(s):"
+                android:inputType="text"/>
+            <EditText
+                android:id="@+id/edit_text_apellido"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Apellidos:"
+                android:inputType="text"/>
+
+
+            <EditText
+                android:id="@+id/edit_text_contrasenia"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Contraseña:" />
+            <EditText
+                android:id="@+id/edit_text_contrasenia2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Repetir contraseña:" />
+
+            <EditText
+                android:id="@+id/edit_text_correo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo:"
+                android:inputType="textEmailAddress"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hombre"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mujer"/>
+            </RadioGroup>
+            <Button
+                android:id="@+id/btn_sas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REGISTRARSE"
+                android:onClick="registrar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.874" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
+

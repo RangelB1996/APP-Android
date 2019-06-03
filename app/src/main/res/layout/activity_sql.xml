@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.bryan.estudihambre.sql">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tx"
+                android:layout_width="match_parent"
+                android:layout_height="193dp"
+                android:fontFamily="casual"
+                android:text="El lenguaje estructurado de consulta(SQL) es basicamente un lenguaje bastante complento en ciertos aspectos y muy importante en la gestion y uso de una base de datos
+por lo cual aqui te presentare una guia de consultas totalmente funcionales, que podras implementar en cualquier BD pues son muy practicas."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="SQL"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Escritura de comandos para SQL"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/sql1"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="@drawable/sql1" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="En este enlace encontraras tanto comandos simpes, limitacion y ordenamiento,
+funciones de filas, consulat de datos en varias tablas, funciones de grupo, subconsultas, manipulacion de datos, generacion y adminstracion
+de tablas, restricciones etc..."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo11"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="100% libre de virus"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/mega1"
+                android:layout_width="296dp"
+                android:layout_height="64dp"
+                android:background="@drawable/mega" />
+            <TextView
+                android:id="@+id/titulo12"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="¿Que son y donde se utilizan las BD?"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/sql12"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:background="@drawable/sql12" />
+            <Button
+                android:id="@+id/mega2"
+                android:layout_width="296dp"
+                android:layout_height="64dp"
+                android:background="@drawable/mega" />
+
+            <TextView
+                android:id="@+id/titulo13"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Un libro muy bueno que te puede servir"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/sql13"
+                android:layout_width="320dp"
+                android:layout_height="300dp"
+                android:background="@drawable/sql13" />
+            <Button
+                android:id="@+id/mega3"
+                android:layout_width="296dp"
+                android:layout_height="64dp"
+                android:background="@drawable/mega" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
